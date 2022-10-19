@@ -34,6 +34,8 @@ import p2p from './assets/partners/p2pb2b.png'
 import vulkania from './assets/partners/vulkania.png'
 import AOS from 'aos';
 import {useEffect} from 'react'
+import "aos/dist/aos.css"
+import Faq from './components/Faq'
 
 function App() {
   const divStyle = {
@@ -101,6 +103,11 @@ we aim to increase assets over the medium to long term while reducing risk."
           <h2
             className="text-center mb-4 pb-3"
             style={{ color: "#004D94", fontSize: 36 }}
+
+      data-aos="fade-down-right"
+      data-aos-offset="80"
+      data-aos-duration="600"
+      data-aos-delay="200"
           >
             Why is WealthNavi Chosen?
           </h2>
@@ -222,7 +229,7 @@ we aim to increase assets over the medium to long term while reducing risk."
       </div>
           <hr />
 
-      <div className="d-grid m-5" data-aos="flip-left" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
+      <div className="d-grid m-5" >
         <Container>
           <h2
             className="text-center mb-4 pb-3"
@@ -230,51 +237,84 @@ we aim to increase assets over the medium to long term while reducing risk."
           >
             Alliance Partners
           </h2>
-          <Row  className="justify-content-md-center m-5"  data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200" >
-              <Col>
+          <Row  className="justify-content-md-center m-5"  >
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200" >
 
               <img   width={120} height={120} src={alpaca} alt="" />
 
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={baby} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={band} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={bscscan} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img  width={120} height={120} src={chainlink} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img  width={120} height={120} src={coing} alt="" />
               </Col>
               
           </Row>
           <Row className="justify-content-md-center m-5" >
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={coinm} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={crox} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={icon} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={metamask} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img  width={120} height={120} src={p2p} alt="" />
               </Col>
-              <Col>
+              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
               <img  width={120} height={120} src={vulkania} alt="" />
               </Col>
               
           </Row>
         
+        </Container>
+      </div>
+
+      <div className="d-grid m-5" >
+        <Container>
+          <h2
+            className="text-center mb-4 pb-3"
+            style={{ color: "#004D94", fontSize: 36 }}
+          >
+            FAQ
+          </h2>
+        <Faq/>
+
+        </Container>
+      </div>
+<hr />
+      <div className="d-grid m-5">
+        <Container>
+          <Stack>
+            <Row>
+              <Col>
+            <Button />
+
+              </Col>
+              <Col>
+            <Button />
+
+              </Col>
+            </Row>
+            <Button2 className="mt-3" variant="link">
+              Flow of account opening
+            </Button2>
+          </Stack>
         </Container>
       </div>
      

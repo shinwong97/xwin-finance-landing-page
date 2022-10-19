@@ -6,7 +6,12 @@ import Container from 'react-bootstrap/Container';
 
 function HeaderAndFooterExample(props) {
   return (
-    <Card className=" mb-5" style={{border: '1px solid white'}}>
+    <Card className=" mb-5" style={{border: '1px solid white'}}
+    data-aos="fade-up-right"
+      data-aos-offset="80"
+      data-aos-duration="1600"
+      data-aos-delay="1200"
+    >
       <Card.Body>
         <Row>
         <Col>
