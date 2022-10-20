@@ -6,10 +6,16 @@ function HeaderAndFooterExample(props) {
     <Card
       className="text-center mb-5"
       style={{ border: "1px solid white" }}
-      data-aos="fade-down-right"
+      // data-aos="fade-up"
+      // data-aos-offset="120"
+      // data-aos-duration="1000"
+      // data-aos-easing="linear"
+      // data-aos-delay="700"
+      // data-aos-anchor-placement="top-bottom"
+      data-aos="fade-up-right"
       data-aos-offset="80"
-      data-aos-duration="600"
-      data-aos-delay="200"
+      data-aos-duration="1600"
+      data-aos-delay="1200"
     >
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

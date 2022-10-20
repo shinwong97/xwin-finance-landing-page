@@ -71,24 +71,27 @@ function App() {
           >
             What is WealthNavi?
           </h2>
-          <Card
+        
+          
+<Card
             title="Fully automated asset management service"
             desc="Anyone can automatically manage assets for a prosperous future with a smartphone or computer."
             imgUrl={CardImg1}
           />
-
-          <Card
+          
+<Card
             title="Aiming to maximize returns through “long-term, accumulation, and diversification”
 "
             desc="Even in an unstable market like 2022,
 we aim to increase assets over the medium to long term while reducing risk."
             imgUrl={CardImg2}
           />
-
-          <Card
+         
+<Card
             title="Chosen by many people, mainly working generations"
             imgUrl={CardImg3}
           />
+        
         </Container>
       </div>
 
@@ -148,13 +151,23 @@ we aim to increase assets over the medium to long term while reducing risk."
             Wealth Navi Experience
           </h2>
           <Row>
-            <Col>
+            <Col
+              data-aos="flip-left"
+      data-aos-offset="120"
+      data-aos-duration="2000"
+      data-aos-delay="1200"
+            >
               <Profile
                 title="I want to continue believing in the experience of withstanding the corona shock."
                 desc="4 years and 0 months of investment performance"
               />
             </Col>
-            <Col>
+            <Col
+              data-aos="flip-left"
+      data-aos-offset="120"
+      data-aos-duration="2000"
+      data-aos-delay="1200"
+            >
               <Profile
                 title={`Even with zero knowledge, I thought, "I should do it."`}
                 desc="5 years and 2 months of investment performance"
@@ -203,14 +216,29 @@ we aim to increase assets over the medium to long term while reducing risk."
             How to start WealthNavi
           </h2>
           <Row className="justify-content-md-center" >
-            <Col lg="3">
+            <Col lg="3"
+            data-aos="flip-left"
+      data-aos-offset="120"
+      data-aos-duration="2000"
+      data-aos-delay="1200"
+            >
             <StepCard title="Free diagnosis of operation plan" desc="Just answer 6 questions and we will propose the optimal operation plan." subtitle="It is possible to open an account without being diagnosed." img={StepCard1}/>
             </Col>
-            <Col lg="3">
+            <Col lg="3"
+            data-aos="flip-left"
+      data-aos-offset="120"
+      data-aos-duration="2000"
+      data-aos-delay="1200"
+            >
                <StepCard title="Application for opening an account" desc="All procedures, including registration of customer information, are completed online."img={StepCard2}/>
 
             </Col>
-            <Col lg="3">
+            <Col lg="3"
+            data-aos="flip-left"
+      data-aos-offset="120"
+      data-aos-duration="2000"
+      data-aos-delay="1200"
+            >
                <StepCard title="Asset management started" desc="After setting your risk tolerance and depositing 100,000 yen or more, you can start asset management." subtitle="During periods of high volume of applications, the process may be delayed." img={StepCard3}/>
             </Col>
           </Row>
@@ -238,24 +266,24 @@ we aim to increase assets over the medium to long term while reducing risk."
             Alliance Partners
           </h2>
           <Row  className="justify-content-md-center m-5"  >
-              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200" >
+              <Col data-aos="flip-right" data-aos-offset="180" data-aos-duration="600" data-aos-delay="200" >
 
               <img   width={120} height={120} src={alpaca} alt="" />
 
               </Col>
-              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
+              <Col data-aos="flip-right" data-aos-offset="180" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={baby} alt="" />
               </Col>
-              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
+              <Col data-aos="flip-right" data-aos-offset="180" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={band} alt="" />
               </Col>
-              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
+              <Col data-aos="flip-right" data-aos-offset="180" data-aos-duration="600" data-aos-delay="200">
               <img width={120} height={120} src={bscscan} alt="" />
               </Col>
-              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
+              <Col data-aos="flip-right" data-aos-offset="180" data-aos-duration="600" data-aos-delay="200">
               <img  width={120} height={120} src={chainlink} alt="" />
               </Col>
-              <Col data-aos="flip-right" data-aos-offset="80" data-aos-duration="600" data-aos-delay="200">
+              <Col data-aos="flip-right" data-aos-offset="180" data-aos-duration="600" data-aos-delay="200">
               <img  width={120} height={120} src={coing} alt="" />
               </Col>
               

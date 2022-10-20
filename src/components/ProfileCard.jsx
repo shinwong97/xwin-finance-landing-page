@@ -5,7 +5,12 @@ import Avatar1 from '../assets/general/avatar1.png'
 
 function WithHeaderStyledExample(props) {
   return (
-    <Card style={{ width: '28rem' }}>
+    <Card style={{ width: '28rem' }}
+    // data-aos="flip-left"
+    //   data-aos-offset="120"
+    //   data-aos-duration="1600"
+    //   data-aos-delay="1200"
+    >
       {/* <Card.Header as="h5">Featured</Card.Header> */}
       <Card.Body>
         <Row>
